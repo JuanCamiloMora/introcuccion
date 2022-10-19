@@ -1,0 +1,36 @@
+#lasfotos{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:stretch;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    gap: 10px;
+    
+}
+
+.container{
+    background-color: rgba(150, 18, 18, 0.795);
+    text-align: center;
+    padding: 0px;
+    width: 600px;
+    position: relative;
+    
+    
+    
+}
+
+.container2{
+    display: flex;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    width: 65px;
+    height: 65px;
+    border-radius: 300px;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center
+    
+}
+

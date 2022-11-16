@@ -8,6 +8,19 @@
         <!-- <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png" alt=""> -->
         
         <img [src]="pokemon.sprites.front_default"/>
+        <div *ngFor="let habilidad of pokemon.abilities">
+            <h3>{{habilidad.ability.name}}</h3>
+        </div>
+        
+        <h2>TIPO:</h2>
+        <div *ngFor="let tipo of pokemon.types">
+            <h3>{{tipo.type.name}}</h3>
+        </div>
+
+        <h2>Estadisticas:</h2>
+        <div *ngFor="let estack of pokemon.stats">
+            <h3>{{estack.base_stat}}</h3>
+        </div>
         
     </div>  
 </div>

@@ -13,13 +13,18 @@
     text-align: center;
     padding: 12px;
     width: 400px;
-    height: 400px;
+    height: 1100px;
     margin: 20px;
+    flex: 0 1 calc(25% - 1em);
     
     
     
 }
 
 img {
-    width: 250px;
+    width: 300px;
+}
+
+h2{
+    color: white;
 }

@@ -1,0 +1,25 @@
+#jota{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: chocolate;
+    text-align: center;
+    padding: 12px;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    
+    
+    
+}
+
+img {
+    width: 250px;
+}
